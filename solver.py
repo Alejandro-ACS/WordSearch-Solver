@@ -12,7 +12,7 @@ import pandas as pd
 
 parser = argparse.ArgumentParser(description='Crossword cheats')
 
-parser.add_argument("--crossword", help="Put the location of your word search", default="./WordSearch.png")
+parser.add_argument("--wordsearch", help="Put the location of your word search", default="./WordSearch.png")
 
 parser.add_argument("--puzzle", help="Put the location of the CSV word search file", default="./wordsearch.csv")
 
