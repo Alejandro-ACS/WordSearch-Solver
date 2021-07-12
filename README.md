@@ -23,5 +23,5 @@ python solver.py
 
 If you want to specify the path of the alphabet soup image, the csv file with the alphabet soup or the csv file with the words to search, you have to execute the following command.
 ```bash
-python solver.py --wordsearch "IMAGE_FILE_PATH" --puzzle "PUZZLE_CSV_FILE_PATH" --list "PATH_OF_CSV_FILE_WITH_LIST_OF_WORDS"
+python solver.py --wordsearch "IMAGE_FILE_PATH" --puzzle "PUZZLE_CSV_FILE_PATH" --words "PATH_OF_CSV_FILE_WITH_LIST_OF_WORDS"
 ```
