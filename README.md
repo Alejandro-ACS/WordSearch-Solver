@@ -16,7 +16,12 @@ pip install argparse
 ```
 
 # Run file
-To execute the file, you must have an image file that contains the crossword and replace it in the folder with the one that comes by default called "Crossword.png".In order for the program to scan the alphabet soup, you have to manually type each row and each column of the puzzle in the "crossword.csv" file and write the words you want it to search for in the "list.csv" file. Then execute the following command in the path where the program is located the following command.
+To execute the file, you must have an image file that contains the word search and replace it in the folder with the one that comes by default called "WordSearch.png". In order for the program to scan the alphabet soup, you have to manually type each row and each column of the puzzle in the "wordsearch.csv" file and write the words you want it to search for in the "list.csv" file. Then execute the following command in the path where the program is located the following command.
 ```bash
 python solver.py
+```
+
+If you want to specify the path of the alphabet soup image, the csv file with the alphabet soup or the csv file with the words to search, you have to execute the following command.
+```bash
+python solver.py --wordsearch "IMAGE_FILE_PATH" --puzzle "PUZZLE_CSV_FILE_PATH" --list "PATH_OF_CSV_FILE_WITH_LIST_OF_WORDS"
 ```
