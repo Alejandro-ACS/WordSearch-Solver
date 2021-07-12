@@ -22,7 +22,7 @@ args = parser.parse_args()
 
 # Get puzzle dimensions
 
-image = Image.open(args.crossword)
+image = Image.open(args.wordsearch)
 
 width, height = image.size
 
@@ -250,7 +250,7 @@ def crossWord(args : str):
 
 coordinates(width, height)
 
-pygame.display.set_caption('Crossword cheat (' + args.crossword.replace("./","") + ')')
+pygame.display.set_caption('Crossword cheat (' + args.wordsearch.replace("./","") + ')')
 
 clock = pygame.time.Clock()
 
@@ -258,7 +258,7 @@ screen = pygame.display.set_mode([width, height])
 
 done = False
 
-background = pygame.image.load(args.crossword).convert()
+background = pygame.image.load(args.wordsearch).convert()
 
 z = 1
 
